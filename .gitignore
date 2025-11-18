@@ -1,0 +1,5 @@
+*.sqlite
+*.phar
+*.bat
+node_modules/
+vendor/
