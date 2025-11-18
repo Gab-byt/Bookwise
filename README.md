@@ -55,65 +55,74 @@ Bookwise/
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/Gab-byt/Bookwise.git
-2.Acesse a pasta do projeto:
 
+2. Entre na pasta do projeto
 cd Bookwise
 
+3. Inicie o servidor
 
-3.Configure seu servidor web (ex: Apache) ou use o servidor embutido do PHP:
+Você pode usar Apache, XAMPP, WAMP ou até o servidor embutido do PHP:
 
 php -S localhost:8000
 
-4.Abra http://localhost:8000 no navegador.
+4. Acesse no navegador
+http://localhost:8000
 
-5.  Crie o banco de dados ou arquivo SQLite, dependendo da sua configuração.
+5. Configure o banco de dados
 
-6. Ajuste no arquivo config.php (ou equivalente) os parâmetros do DB.
+O projeto pode usar SQLite ou MySQL — escolha a opção que preferir.
 
-##✅ Como Usar
+Crie o arquivo/banco manualmente
 
-Acesse a página inicial para ver os livros cadastrados.
+Ou importe o esquema se existir
 
-Use o formulário de cadastro para inserir novos livros.
+6. Ajuste as credenciais
 
-Após cadastrar, uma mensagem de sucesso aparece (flash).
+No arquivo config.php (ou equivalente no seu projeto):
 
-Se navegar para rota inválida, a aplicação mostra uma página 404 personalizada.
+Caminho do SQLite ou
 
-##📚 Próximos Passos / Melhoria
+Host, usuário, senha e nome da database (MySQL)
 
-Validação de formulário (client-side e server-side).
+## 🧭 Como a Aplicação Funciona
 
-Implementação de autenticação para permitir usuários e permissões.
+✔ Página inicial exibe os livros cadastrados
+✔ Formulário permite adicionar novos livros
+✔ Mensagens de feedback aparecem via Flash Message
+✔ Rotas inválidas exibem uma página 404 personalizada
 
-Versão responsiva (design mobile).
+Simples, direto e funcional — ideal para estudar arquitetura MVC e PHP puro.
 
-Integração com banco de dados mais robusto (MySQL, PostgreSQL).
 
-API REST para permitir consumo externo.
+##🤝 Como Contribuir
 
-Paginação, busca e filtros de livros.
+Quer melhorar o Bookwise? É fácil:
 
-Sistema de empréstimo de livros (se for para biblioteca real).
+Faça um fork
 
-##👥 Contribuição
+Crie sua branch:
 
-Contribuições são bem-vindas! Se quiser ajudar:
+git checkout -b feature/minha-feature
 
-Fork esse repositório
 
-Crie uma branch para a sua feature (git checkout -b feature/nome-da-feature)
+Commit:
 
-Faça commit das suas mudanças (git commit -m 'Adiciona feature X')
+git commit -m "Adiciona nova feature"
 
-Push para sua branch (git push origin feature/nome-da-feature)
+
+Push:
+
+git push origin feature/minha-feature
+
 
 Abra um Pull Request
 
-##📄 Licença
+## 📄 Licença
 
-Esse projeto está sob a MIT License (ou outra que você prefira). Sinta-se livre para usar, modificar e distribuir conforme necessário.
+Este projeto está sob a MIT License.
+Use, estude, modifique e distribua — é totalmente livre.
 
-##✍️ Autor
+## 👤 Autor
 
-Gab­-byt — desenvolvedor principal e idealizador do Bookwise
+Gab-byt
+Desenvolvedor e criador do Bookwise 📚💻
